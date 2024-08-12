@@ -35,6 +35,29 @@ function updateType(type, reviewIdx, span) {
 			$(span).text(response.data.reviewLike);
 		}).catch(error => console.log(error));
 }
+function reviewRankDiv(type) {
+	const movieIdx = document.querySelector("#movieIdx").value;
+	let div = $("<div></div>");
+	axios.get(`reviewControl.jsp?type=${type}&movieRef=${movieIdx}`)
+		.then(response => {
+			const data = response.data;
+			data.forEach(it => {
+				let reviewMain = $("<div class='review-main'/></div>");
+				reviewMain.append($("<div class='review-img'/><img src='https://img.megabox.co.kr/static/pc/images/mypage/bg-profile.png'/><p>" + it.userId + "</p></div>"));
+				reviewMain.append($("<div class='review-rate'>관람평</div>"));
+				reviewMain.append($("<div class='review-rate number'>" + it.movieLike + "</div>"));
+				reviewMain.append($("<div class='review-content'>" + it.title + "</div>"));
+				let reviewLike = $("<div class='review-like'></div>");
+				reviewLike.append($("<img src='https://img.megabox.co.kr/static/pc/images/common/ico/ico-like-g.png' onclick='updateReview(event," + it.reviewIdx + ")'>"));
+				reviewLike.append($("<input type='hidden' id='idx' value=" + it.reviewIdx + "/>"));
+				reviewLike.append($("<span class='review-like-value'>" + it.reviewLike + "</span>"));
+				reviewMain.append(reviewLike);
+				div.append(reviewMain);
+			})
+			$("#resultDiv").html(div);
+		})
+		.catch(error => console.log(error));
+}
 const reviewLike = document.querySelectorAll(".review-like img");
 reviewLike.forEach(item => {
 	item.addEventListener("click", function() {
@@ -75,26 +98,3 @@ reviewRank.forEach((item, index) => {
 	})
 })
 
-function reviewRankDiv(type) {
-	const movieIdx = document.querySelector("#movieIdx").value;
-	let div = $("<div></div>");
-	axios.get(`reviewControl.jsp?type=${type}&movieRef=${movieIdx}`)
-		.then(response => {
-			const data = response.data;
-			data.forEach(it => {
-				let reviewMain = $("<div class='review-main'/></div>");
-				reviewMain.append($("<div class='review-img'/><img src='https://img.megabox.co.kr/static/pc/images/mypage/bg-profile.png'/><p>" + it.userId + "</p></div>"));
-				reviewMain.append($("<div class='review-rate'>관람평</div>"));
-				reviewMain.append($("<div class='review-rate number'>" + it.movieLike + "</div>"));
-				reviewMain.append($("<div class='review-content'>" + it.title + "</div>"));
-				let reviewLike = $("<div class='review-like'></div>");
-				reviewLike.append($("<img src='https://img.megabox.co.kr/static/pc/images/common/ico/ico-like-g.png' onclick='updateReview(event," + it.reviewIdx + ")'>"));
-				reviewLike.append($("<input type='hidden' id='idx' value=" + it.reviewIdx + "/>"));
-				reviewLike.append($("<span class='review-like-value'>" + it.reviewLike + "</span>"));
-				reviewMain.append(reviewLike);
-				div.append(reviewMain);
-			})
-			$("#resultDiv").html(div);
-		})
-		.catch(error => console.log(error));
-}

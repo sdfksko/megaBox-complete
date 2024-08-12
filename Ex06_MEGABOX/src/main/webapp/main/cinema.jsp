@@ -69,7 +69,7 @@
                     </a>
                 </div>
                 <div class="imagebox">
-                    <a href="#">
+                    <a href="dolby_cinema.jsp">
                         <img src="https://img.megabox.co.kr/static/pc/images/theater/bg-db.png" alt="">
                         <div class="imagebox-text">
                             <h1>DOLBY CINEMA</h1>
