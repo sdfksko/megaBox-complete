@@ -787,13 +787,19 @@ footer .footer-top{
 .promotion img{
     width: 230px;
 }
-.benefit{
-    width: 710px;height: 350px;
+.benefot{	
+	width: 710px;height: 350px;
     position: absolute;
     left:6%;
     top:70px;
     overflow: hidden;
-
+}
+.benefit{
+    width: 420px;height: 350px;
+    position: absolute;
+    left:30%;
+    top:70px;
+    overflow: hidden;
 }
 .benefit .swiper-pagination{
     left: 25%; /* 수평 중앙 정렬 */
@@ -801,7 +807,7 @@ footer .footer-top{
     height: 100px;
     transform: rotate(0deg);
     position: absolute;
-    top:320px;
+    top:330px;
 }
 .ad .title{
     color:#351f66;
@@ -815,15 +821,15 @@ footer .footer-top{
     font-size: 11px;
     color:rgb(38, 18, 85);
     position: absolute;
-    top: 205px;
-    right: 910px;
+    top: 220px;
+    right: 650px;
 }
 .ad .swiper-button-prev::after{
     font-size: 11px;
     color:rgb(38, 18, 85);
     position: absolute;
-    top: 205px;
-    left: 220px;
+    top: 220px;
+    left: 480px;
 }
 .ad .swiper-button-next img{
     width: 7px;
@@ -839,10 +845,10 @@ footer .footer-top{
 }
 .ad .swiper-scrollbar{
     position: absolute;
-    top: 330px;
+    top: 343px;
     width: 150px;
+    right: 1000px;
 }
-
 .login-box{
     width: 850px;
     height: 480px;

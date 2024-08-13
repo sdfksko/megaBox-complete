@@ -395,45 +395,67 @@
             <section class="ad">
                 <div class="ad-container">
                     <div class="title">혜택</div>
+                    <div class="benefot">
+                    	<div class="swiper-wrapper">
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/16/hCgG4MJljnRoGAh6yMUNlSzr53U6aH2T.jpg" alt="">
+                    		</div>
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/09/bhgggw0bRcNMwjR6mJ4x6EZXGFOoKWJT.jpg" alt="">
+                    		</div>
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/05/30/tZAwMJ4JIHv7VfplSAdzaq5HvDzjBBm5.png" alt="">
+                    		</div>
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/01/YujSSxW1jNo6G9CTYFOJTwC3dV24yXZM.png" alt="">
+                    		</div>
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/28/twzo6BoVQ8c0jAaz6SBOzWXoPWRZLACl.png" alt="">	
+                    		</div>
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/24/OyZGjzfRfmLrDnjI7LR4G0oxp2xZLsS5.jpg" alt="">
+                    		</div>
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/24/jyEnQhsIIKZYM7FMoqnQqnY69PWXhUt3.png" alt="">
+                    		</div>
+                    		<div class="swiper-slide">
+                    			<img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/05/JMJyDloRX1jCWu6ZJ5jo5egHgjF22edn.jpg" alt="">
+                    		</div>
+                    	</div>
+                    </div>
                     <div class="benefit">
                         <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide"><img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/16/hCgG4MJljnRoGAh6yMUNlSzr53U6aH2T.jpg" alt="">
+                            <div class="swiper-slide">
                             <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/16/Pq7YxoWtb2OZn7oY5Xkq0OzILVYQxvWB.jpg" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/09/bhgggw0bRcNMwjR6mJ4x6EZXGFOoKWJT.jpg" alt="">
                                 <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/09/7iV4nTp9kgrsCnaLRLMUV40oaAwF3YEU.jpg" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/05/30/tZAwMJ4JIHv7VfplSAdzaq5HvDzjBBm5.png" alt="">
                                 <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/05/30/tPujcb9XMXGIJiUk4RAuMPFMkkADzfwW.png" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/01/YujSSxW1jNo6G9CTYFOJTwC3dV24yXZM.png" alt="">
                                 <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/07/01/nKBA9issS1hLsqylqPOkX8fRLxvKjQML.png" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/28/twzo6BoVQ8c0jAaz6SBOzWXoPWRZLACl.png" alt="">
                                 <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/28/DWEWOfUydY80qyfV4tgeRQFckHNOWt5W.png" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/24/OyZGjzfRfmLrDnjI7LR4G0oxp2xZLsS5.jpg" alt="">
                                 <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/24/4LDtfbPO5xuxd0TTUWGrX30rTejL35Qa.jpg" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/24/jyEnQhsIIKZYM7FMoqnQqnY69PWXhUt3.png" alt="">
                                 <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/24/GKcl0idCFEEEUzEEU2dFf3lnjsThnh4M.png" alt="">
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/05/JMJyDloRX1jCWu6ZJ5jo5egHgjF22edn.jpg" alt="">
                                 <img src="https://img.megabox.co.kr/SharedImg/BnftMng/2024/06/05/PW6SukbtEyJlfLKEXIhBHR6tj19FKu7Z.jpg" alt="">
                             </div>
                             ...
                         </div>
-                        
                         <div class="swiper-pagination"></div>
                         <div class="swiper-scrollbar"></div>
+                    </div>
+                    
                     </div>
                         <!-- If we need pagination -->
                       

@@ -21,6 +21,7 @@ const swiper = new Swiper(".alarm-body", {
     },
     scrollbar: {
       el: ".swiper-scrollbar",
+      draggable: true,
     },
     // Navigation arrows
     navigation: {
@@ -28,4 +29,18 @@ const swiper = new Swiper(".alarm-body", {
       prevEl: '.swiper-button-prev',
     },
   
+  });
+  
+  const swiper3 = new Swiper('.benefot', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+    autoplay:{
+      delay:2000
+    },
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      type: "fraction",
+    },
   });
